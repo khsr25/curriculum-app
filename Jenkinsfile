@@ -4,6 +4,7 @@ pipeline {
     stage('checkout code') {
       steps {
         git(url: 'https://github.com/khsr25/curriculum-app.git', branch: 'dev')
+        git(url: 'https://github.com/khsr25/curriculum-app.git', branch: 'dev')
       }
     }
 
